@@ -188,7 +188,7 @@ The application is fully responsive and tested down to 320px width. To test:
 - **768px - 1023px**: Two column layout (tablet)
 - **1024px+**: Three column layout (desktop)
 
-## Demo Video
+<!-- ## Demo Video
 
 A 1-2 minute demo video showcasing all features is available at: [YouTube Link - To be added]
 
@@ -198,14 +198,14 @@ The video demonstrates:
 - Sorting functionality
 - Real-time price updates with animations
 - Responsive design across breakpoints
-- Loading states and error handling
+- Loading states and error handling -->
 
 ## Deliverables Checklist
 
 - ✅ GitHub repository with clean commits
 - ✅ Vercel deployment ready (see DEPLOYMENT.md)
 - ⏳ 1-2 minute public YouTube video (to be created)
-- ✅ - ✅ Responsive layout complete down to 320px width (auto-layout snapshots attached)
+- ✅ Responsive layout complete down to 320px width (auto-layout snapshots attached)
 - ✅ README with comprehensive documentation
 
 ## License
