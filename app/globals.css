@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ffffff;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 2s infinite;
+}
+
+/* ===== Custom Scrollbar (White Thumb) ===== */
+.scrollbar-white {
+  scrollbar-width: thin;              /* Firefox */
+  scrollbar-color: #5b6075 transparent;
+}
+
+/* Chrome / Edge / Safari */
+.scrollbar-white::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollbar-white::-webkit-scrollbar-track {
+  background: transparent;
+  margin: 25% 0;                      
+}
+
+.scrollbar-white::-webkit-scrollbar-thumb {
+  background-color: #5b6075;
+  border-radius: 6px;
+}
+
+
+/* card\/70:hover {
+  background-color: #151921;
+} */
