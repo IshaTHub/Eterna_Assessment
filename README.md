@@ -188,9 +188,9 @@ The application is fully responsive and tested down to 320px width. To test:
 - **768px - 1023px**: Two column layout (tablet)
 - **1024px+**: Three column layout (desktop)
 
-<!-- ## Demo Video
+ ## Demo Video
 
-A 1-2 minute demo video showcasing all features is available at: [YouTube Link - To be added]
+A 1-2 minute demo video showcasing all features is available at: [https://youtu.be/N5pN0aXupEc]
 
 The video demonstrates:
 - Three-column token display
@@ -198,7 +198,7 @@ The video demonstrates:
 - Sorting functionality
 - Real-time price updates with animations
 - Responsive design across breakpoints
-- Loading states and error handling -->
+- Loading states and error handling
 
 ## Deliverables Checklist
 
@@ -214,7 +214,8 @@ MIT
 
 ## Author
 
-Built for Eterna Assessment
+ISHA TIWARI
+
 
 
 
